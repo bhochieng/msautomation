@@ -1,3 +1,4 @@
+#install msal via $pip install msal
 from msal import ClientApplication
 
 class AttachmentDownloader:
