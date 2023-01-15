@@ -5,7 +5,7 @@ from msal import ClientApplication
 class AttachmentDownloader:
     def __init__(self, username: str, password: str):
         self.client_id = '<your client id>'
-        self.authority = 'https://login.microsoftonline.com/bhochieng'
+        self.authority = 'https://login.microsoftonline.com/<tenant name>'
 
 # Initialise MS ClientApplication object with your client_id and authority URL
         self.app = ClientApplication(client_id=self.client_id,authority=self.authority)
