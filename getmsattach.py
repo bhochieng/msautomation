@@ -16,4 +16,5 @@ if __name__ == "__main__":
     downloader = AttachmentDownloader("zzz@outlook.com", "password")
 #Now that we have our app object initialised, we can acquire the token. This token can be used to extract to access_token for headers.
     token = self.app.acquire_token_by_username_password(username=self.username,password=self.password,scopes=['.default'])
+    # Here we print the tocken
     print(token)
