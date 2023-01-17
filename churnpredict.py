@@ -4,8 +4,7 @@ import pandas as pd
 df = pd.read_csv('Customer_Churn.csv')
 df.head()
 
-
-# undefinedLet’s look into these variables further by listing them out:
+#### undefinedLet’s look into these variables further by listing them out:
 df.info()
 
 # undefinedLet’s count the number of customers in the dataset who have churned: 
