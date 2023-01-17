@@ -1,5 +1,4 @@
 #install msal via $pip install msal
-#after install get the client ID and tenant name
 from msal import ClientApplication
 
 class AttachmentDownloader:
