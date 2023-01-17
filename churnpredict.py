@@ -1,4 +1,3 @@
-# //machine learning model to predict churn using python?
 # undefinedFirst, let’s load the dataframe into Python with the pandas library and take a look at its head. I’ve renamed the file to “customer_churn.csv”, and it is the name I will be using below:
 import pandas as pd
 
